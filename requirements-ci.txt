@@ -1,0 +1,7 @@
+# Lightweight CI: data generation, dbt warehouse, tests and agent evaluation (no deep-learning stack)
+-r requirements.txt
+dbt-core>=1.8,<2
+dbt-duckdb>=1.8
+pandera>=0.20
+pyyaml>=6.0
+pytest>=8.0

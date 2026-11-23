@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Generated data (the warehouse is rebuilt by dbt; data/raw and data/ground_truth are versioned)
+data/warehouse/
+warehouse/target/
+warehouse/logs/
+warehouse/dbt_packages/
+logs/
+lightning_logs/
+reports/experiments/run.log
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
