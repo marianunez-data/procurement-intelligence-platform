@@ -1,0 +1,61 @@
+supplier_id,supplier_name,supplier_origin,country,quoted_lead_time_days,downpayment_required,downpayment_pct,payment_terms_days
+V10001,Nordhavn Ship Spares GmbH,Foreign,Germany,94,True,0.4,60
+V10002,Castellane Energy Systems,Foreign,Italy,79,False,0.0,60
+V10003,Veltrix Spares and Services,Foreign,Netherlands,77,False,0.0,45
+V10004,Halvorsund Industrial Supply,Foreign,United Arab Emirates,50,True,0.3,60
+V10005,Ostrava Line Ship Spares,Foreign,China,100,True,0.4,60
+V10006,Sundara Power Solutions,Foreign,United States,57,True,0.4,30
+V10007,Marlowe Gate Spares and Services,Foreign,United Kingdom,94,True,0.5,30
+V10008,Redfenn Industrial Supply GmbH,Foreign,Singapore,63,True,0.4,30
+V10009,Altamira Bay Marine Supply,Foreign,South Africa,109,True,0.5,45
+V10010,Kestrelton Energy Systems,Foreign,Norway,77,False,0.0,45
+V10011,Harrowmere Engineering,Foreign,Germany,81,False,0.0,45
+V10012,Tidewell Industrial Supply,Foreign,Italy,47,True,0.5,30
+V10013,Ironvale Marine Supply,Foreign,Netherlands,91,True,0.4,60
+V10014,Callowind Energy Systems,Foreign,United Arab Emirates,98,True,0.3,45
+V10015,Solvane Hydraulics GmbH,Foreign,China,96,True,0.4,60
+V10016,Brennholt Engineering,Foreign,United States,68,True,0.3,30
+V10017,Quayside Atlas Ship Spares,Foreign,United Kingdom,83,False,0.0,30
+V10018,Vantoria Electrical,Foreign,Singapore,90,True,0.4,30
+V10019,Lumora Spares and Services,Foreign,South Africa,85,False,0.0,30
+V10020,Grevik Trading,Foreign,Norway,49,True,0.4,45
+V10021,Asterline Ship Spares,Foreign,Germany,66,True,0.3,45
+V10022,Corvane Energy Systems GmbH,Foreign,Italy,76,False,0.0,60
+V10023,Pellucid Engineering,Foreign,Netherlands,97,False,0.0,60
+V10024,Darnholm Engineering,Foreign,United Arab Emirates,59,True,0.4,45
+V10025,Zephyra Ship Spares,Foreign,China,62,False,0.0,60
+V10026,Okavo Energy Systems,Foreign,United States,49,False,0.0,45
+V10027,Benwick Spares and Services,Foreign,United Kingdom,97,True,0.3,60
+V10028,Torvald Trading,Foreign,Singapore,106,True,0.3,30
+V10029,Meroway Marine Supply GmbH,Foreign,South Africa,95,False,0.0,45
+V10030,Ashcombe Energy Systems,Foreign,Norway,45,True,0.3,60
+V10031,Valdera Spares and Services,Foreign,Germany,88,True,0.3,45
+V10032,Kintora Hydraulics,Foreign,Italy,103,True,0.5,30
+V10033,Selbourne Marine Supply,Foreign,Netherlands,46,True,0.4,30
+V10034,Rivenna Power Solutions,Foreign,United Arab Emirates,102,False,0.0,45
+V10035,Hollin Trading,Foreign,China,110,True,0.4,30
+V10036,Mabrey Industrial Supply GmbH,Foreign,United States,49,False,0.0,60
+V10037,Pentravis Marine Systems Ltd,Local,Domestic,27,False,0.0,30
+V10038,Orinoco Ridge Electrical Ltd,Local,Domestic,13,False,0.0,60
+V10039,Wexmoor Engineering Ltd,Local,Domestic,24,False,0.0,60
+V10040,Lyndhurst Vale Spares and Services Ltd,Local,Domestic,23,False,0.0,30
+V10041,Esperanza Coast Marine Systems Ltd,Local,Domestic,8,False,0.0,60
+V10042,Tamsin Electrical Ltd,Local,Domestic,19,False,0.0,30
+V10043,Calderon Works Hydraulics Ltd,Local,Domestic,11,True,0.4,45
+V10044,Brightfold Industrial Supply Ltd,Local,Domestic,25,True,0.4,45
+V10045,Norrland Ship Spares Ltd,Local,Domestic,20,False,0.0,30
+V10046,Avonlea Electrical Ltd,Local,Domestic,16,False,0.0,30
+V10047,Sorrento Field Spares and Services Ltd,Local,Domestic,16,False,0.0,30
+V10048,Yarrowby Hydraulics Ltd,Local,Domestic,15,False,0.0,30
+V10049,Fenwright Marine Systems Ltd,Local,Domestic,23,False,0.0,30
+V10050,Ondura Energy Systems Ltd,Local,Domestic,25,True,0.5,30
+V10051,Graniteholm Industrial Supply Ltd,Local,Domestic,19,False,0.0,45
+V10052,Westerly Trading Ltd,Local,Domestic,20,False,0.0,30
+V10053,Belvista Marine Supply Ltd,Local,Domestic,15,False,0.0,45
+V10054,Coralmont Energy Systems Ltd,Local,Domestic,22,True,0.4,30
+V10055,Dunmere Hydraulics Ltd,Local,Domestic,19,False,0.0,60
+V10056,Ivorybridge Spares and Services Ltd,Local,Domestic,10,False,0.0,30
+V10057,Kalhari Ship Spares Ltd,Local,Domestic,11,False,0.0,30
+V10058,Pinewater Power Solutions Ltd,Local,Domestic,13,False,0.0,45
+V10059,Rosslare Point Trading Ltd,Local,Domestic,23,True,0.5,30
+V10060,Talvik Trading Ltd,Local,Domestic,19,False,0.0,30
