@@ -1,0 +1,13 @@
+section_id,section_name,business_unit
+SEC01,Cranes and Lifting,Port Operations
+SEC02,Reach Stackers,Port Operations
+SEC03,Port Infrastructure,Port Operations
+SEC04,Light Vehicles,Fleet and Workshop
+SEC05,Heavy Duty Trucks,Fleet and Workshop
+SEC06,Minor Equipment,Fleet and Workshop
+SEC07,Generators,Power Generation
+SEC08,Low Voltage Electrical,Power Generation
+SEC09,HV Switchgear,Power Generation
+SEC10,Tugboats,Marine Services
+SEC11,Engine Room,Marine Services
+SEC12,Deck and Safety,Marine Services

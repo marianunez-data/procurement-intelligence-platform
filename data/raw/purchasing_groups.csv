@@ -1,0 +1,7 @@
+purchasing_group_id,purchasing_group_name,scope
+PG01,Spares Foreign A,Foreign
+PG02,Spares Foreign B,Foreign
+PG03,Spares Local,Local
+PG04,Electrical and Power,Both
+PG05,Marine Procurement,Both
+PG06,Projects and Capex,Both

@@ -1,0 +1,957 @@
+week_start,business_unit,fleet_utilisation
+2021-06-07,Port Operations,0.7212
+2021-06-14,Port Operations,0.7405
+2021-06-21,Port Operations,0.7486
+2021-06-28,Port Operations,0.7256
+2021-07-05,Port Operations,0.7119
+2021-07-12,Port Operations,0.6839
+2021-07-19,Port Operations,0.6862
+2021-07-26,Port Operations,0.676
+2021-08-02,Port Operations,0.6635
+2021-08-09,Port Operations,0.6701
+2021-08-16,Port Operations,0.6363
+2021-08-23,Port Operations,0.6427
+2021-08-30,Port Operations,0.6285
+2021-09-06,Port Operations,0.6525
+2021-09-13,Port Operations,0.6622
+2021-09-20,Port Operations,0.6416
+2021-09-27,Port Operations,0.6524
+2021-10-04,Port Operations,0.6684
+2021-10-11,Port Operations,0.6486
+2021-10-18,Port Operations,0.6743
+2021-10-25,Port Operations,0.6788
+2021-11-01,Port Operations,0.6537
+2021-11-08,Port Operations,0.6981
+2021-11-15,Port Operations,0.6739
+2021-11-22,Port Operations,0.6695
+2021-11-29,Port Operations,0.6759
+2021-12-06,Port Operations,0.6953
+2021-12-13,Port Operations,0.6897
+2021-12-20,Port Operations,0.5413
+2021-12-27,Port Operations,0.5389
+2022-01-03,Port Operations,0.6251
+2022-01-10,Port Operations,0.6852
+2022-01-17,Port Operations,0.7356
+2022-01-24,Port Operations,0.7376
+2022-01-31,Port Operations,0.7499
+2022-02-07,Port Operations,0.732
+2022-02-14,Port Operations,0.7062
+2022-02-21,Port Operations,0.7143
+2022-02-28,Port Operations,0.7481
+2022-03-07,Port Operations,0.7477
+2022-03-14,Port Operations,0.7517
+2022-03-21,Port Operations,0.7342
+2022-03-28,Port Operations,0.7577
+2022-04-04,Port Operations,0.7742
+2022-04-11,Port Operations,0.7633
+2022-04-18,Port Operations,0.7478
+2022-04-25,Port Operations,0.7409
+2022-05-02,Port Operations,0.7535
+2022-05-09,Port Operations,0.7356
+2022-05-16,Port Operations,0.7472
+2022-05-23,Port Operations,0.7187
+2022-05-30,Port Operations,0.697
+2022-06-06,Port Operations,0.7144
+2022-06-13,Port Operations,0.7323
+2022-06-20,Port Operations,0.7244
+2022-06-27,Port Operations,0.6799
+2022-07-04,Port Operations,0.6592
+2022-07-11,Port Operations,0.6571
+2022-07-18,Port Operations,0.6958
+2022-07-25,Port Operations,0.6626
+2022-08-01,Port Operations,0.6264
+2022-08-08,Port Operations,0.6245
+2022-08-15,Port Operations,0.6336
+2022-08-22,Port Operations,0.6641
+2022-08-29,Port Operations,0.6557
+2022-09-05,Port Operations,0.6384
+2022-09-12,Port Operations,0.6548
+2022-09-19,Port Operations,0.6383
+2022-09-26,Port Operations,0.6486
+2022-10-03,Port Operations,0.6767
+2022-10-10,Port Operations,0.7
+2022-10-17,Port Operations,0.6931
+2022-10-24,Port Operations,0.6887
+2022-10-31,Port Operations,0.7064
+2022-11-07,Port Operations,0.6963
+2022-11-14,Port Operations,0.7148
+2022-11-21,Port Operations,0.7533
+2022-11-28,Port Operations,0.724
+2022-12-05,Port Operations,0.7312
+2022-12-12,Port Operations,0.7316
+2022-12-19,Port Operations,0.5814
+2022-12-26,Port Operations,0.5776
+2023-01-02,Port Operations,0.665
+2023-01-09,Port Operations,0.7029
+2023-01-16,Port Operations,0.7339
+2023-01-23,Port Operations,0.713
+2023-01-30,Port Operations,0.7236
+2023-02-06,Port Operations,0.7055
+2023-02-13,Port Operations,0.6856
+2023-02-20,Port Operations,0.7258
+2023-02-27,Port Operations,0.7552
+2023-03-06,Port Operations,0.7674
+2023-03-13,Port Operations,0.7845
+2023-03-20,Port Operations,0.7848
+2023-03-27,Port Operations,0.7581
+2023-04-03,Port Operations,0.7613
+2023-04-10,Port Operations,0.7729
+2023-04-17,Port Operations,0.8014
+2023-04-24,Port Operations,0.803
+2023-05-01,Port Operations,0.7827
+2023-05-08,Port Operations,0.7306
+2023-05-15,Port Operations,0.7436
+2023-05-22,Port Operations,0.7577
+2023-05-29,Port Operations,0.7446
+2023-06-05,Port Operations,0.7669
+2023-06-12,Port Operations,0.7424
+2023-06-19,Port Operations,0.7387
+2023-06-26,Port Operations,0.7107
+2023-07-03,Port Operations,0.7045
+2023-07-10,Port Operations,0.6919
+2023-07-17,Port Operations,0.6674
+2023-07-24,Port Operations,0.6269
+2023-07-31,Port Operations,0.6271
+2023-08-07,Port Operations,0.6481
+2023-08-14,Port Operations,0.6547
+2023-08-21,Port Operations,0.6466
+2023-08-28,Port Operations,0.646
+2023-09-04,Port Operations,0.6397
+2023-09-11,Port Operations,0.6368
+2023-09-18,Port Operations,0.6607
+2023-09-25,Port Operations,0.6396
+2023-10-02,Port Operations,0.6601
+2023-10-09,Port Operations,0.6765
+2023-10-16,Port Operations,0.6632
+2023-10-23,Port Operations,0.6507
+2023-10-30,Port Operations,0.6693
+2023-11-06,Port Operations,0.6701
+2023-11-13,Port Operations,0.6621
+2023-11-20,Port Operations,0.6626
+2023-11-27,Port Operations,0.6727
+2023-12-04,Port Operations,0.6992
+2023-12-11,Port Operations,0.7171
+2023-12-18,Port Operations,0.6131
+2023-12-25,Port Operations,0.6116
+2024-01-01,Port Operations,0.6969
+2024-01-08,Port Operations,0.7564
+2024-01-15,Port Operations,0.7532
+2024-01-22,Port Operations,0.7521
+2024-01-29,Port Operations,0.7503
+2024-02-05,Port Operations,0.7531
+2024-02-12,Port Operations,0.7349
+2024-02-19,Port Operations,0.76
+2024-02-26,Port Operations,0.7107
+2024-03-04,Port Operations,0.7461
+2024-03-11,Port Operations,0.7878
+2024-03-18,Port Operations,0.8165
+2024-03-25,Port Operations,0.8055
+2024-04-01,Port Operations,0.7913
+2024-04-08,Port Operations,0.7761
+2024-04-15,Port Operations,0.7724
+2024-04-22,Port Operations,0.7913
+2024-04-29,Port Operations,0.7528
+2024-05-06,Port Operations,0.7676
+2024-05-13,Port Operations,0.7306
+2024-05-20,Port Operations,0.7347
+2024-05-27,Port Operations,0.7077
+2024-06-03,Port Operations,0.7126
+2024-06-10,Port Operations,0.7298
+2024-06-17,Port Operations,0.7114
+2024-06-24,Port Operations,0.7082
+2024-07-01,Port Operations,0.6872
+2024-07-08,Port Operations,0.6733
+2024-07-15,Port Operations,0.6561
+2024-07-22,Port Operations,0.6692
+2024-07-29,Port Operations,0.7007
+2024-08-05,Port Operations,0.6896
+2024-08-12,Port Operations,0.7042
+2024-08-19,Port Operations,0.6856
+2024-08-26,Port Operations,0.6601
+2024-09-02,Port Operations,0.6321
+2024-09-09,Port Operations,0.6438
+2024-09-16,Port Operations,0.6561
+2024-09-23,Port Operations,0.6575
+2024-09-30,Port Operations,0.6537
+2024-10-07,Port Operations,0.6679
+2024-10-14,Port Operations,0.6579
+2024-10-21,Port Operations,0.6519
+2024-10-28,Port Operations,0.6491
+2024-11-04,Port Operations,0.6433
+2024-11-11,Port Operations,0.6549
+2024-11-18,Port Operations,0.6746
+2024-11-25,Port Operations,0.6979
+2024-12-02,Port Operations,0.7153
+2024-12-09,Port Operations,0.6904
+2024-12-16,Port Operations,0.6973
+2024-12-23,Port Operations,0.5541
+2024-12-30,Port Operations,0.5433
+2025-01-06,Port Operations,0.6547
+2025-01-13,Port Operations,0.6939
+2025-01-20,Port Operations,0.7188
+2025-01-27,Port Operations,0.7421
+2025-02-03,Port Operations,0.7587
+2025-02-10,Port Operations,0.7459
+2025-02-17,Port Operations,0.7844
+2025-02-24,Port Operations,0.7523
+2025-03-03,Port Operations,0.7439
+2025-03-10,Port Operations,0.7477
+2025-03-17,Port Operations,0.778
+2025-03-24,Port Operations,0.7707
+2025-03-31,Port Operations,0.7746
+2025-04-07,Port Operations,0.7582
+2025-04-14,Port Operations,0.7755
+2025-04-21,Port Operations,0.7991
+2025-04-28,Port Operations,0.8027
+2025-05-05,Port Operations,0.8267
+2025-05-12,Port Operations,0.7726
+2025-05-19,Port Operations,0.7497
+2025-05-26,Port Operations,0.7295
+2025-06-02,Port Operations,0.7192
+2025-06-09,Port Operations,0.7291
+2025-06-16,Port Operations,0.7207
+2025-06-23,Port Operations,0.69
+2025-06-30,Port Operations,0.6519
+2025-07-07,Port Operations,0.6375
+2025-07-14,Port Operations,0.6509
+2025-07-21,Port Operations,0.6514
+2025-07-28,Port Operations,0.662
+2025-08-04,Port Operations,0.6852
+2025-08-11,Port Operations,0.6574
+2025-08-18,Port Operations,0.6595
+2025-08-25,Port Operations,0.6715
+2025-09-01,Port Operations,0.6561
+2025-09-08,Port Operations,0.6551
+2025-09-15,Port Operations,0.6486
+2025-09-22,Port Operations,0.6614
+2025-09-29,Port Operations,0.6696
+2025-10-06,Port Operations,0.6667
+2025-10-13,Port Operations,0.6484
+2025-10-20,Port Operations,0.6378
+2025-10-27,Port Operations,0.6878
+2025-11-03,Port Operations,0.6775
+2025-11-10,Port Operations,0.6855
+2025-11-17,Port Operations,0.6895
+2025-11-24,Port Operations,0.723
+2025-12-01,Port Operations,0.7177
+2025-12-08,Port Operations,0.7231
+2025-12-15,Port Operations,0.7355
+2025-12-22,Port Operations,0.5803
+2025-12-29,Port Operations,0.5781
+2021-06-07,Fleet and Workshop,0.7406
+2021-06-14,Fleet and Workshop,0.7256
+2021-06-21,Fleet and Workshop,0.7208
+2021-06-28,Fleet and Workshop,0.7201
+2021-07-05,Fleet and Workshop,0.7207
+2021-07-12,Fleet and Workshop,0.7304
+2021-07-19,Fleet and Workshop,0.7594
+2021-07-26,Fleet and Workshop,0.7542
+2021-08-02,Fleet and Workshop,0.7302
+2021-08-09,Fleet and Workshop,0.7349
+2021-08-16,Fleet and Workshop,0.7128
+2021-08-23,Fleet and Workshop,0.6985
+2021-08-30,Fleet and Workshop,0.6901
+2021-09-06,Fleet and Workshop,0.6828
+2021-09-13,Fleet and Workshop,0.6635
+2021-09-20,Fleet and Workshop,0.6964
+2021-09-27,Fleet and Workshop,0.6924
+2021-10-04,Fleet and Workshop,0.6753
+2021-10-11,Fleet and Workshop,0.6481
+2021-10-18,Fleet and Workshop,0.6391
+2021-10-25,Fleet and Workshop,0.6411
+2021-11-01,Fleet and Workshop,0.6639
+2021-11-08,Fleet and Workshop,0.6428
+2021-11-15,Fleet and Workshop,0.6989
+2021-11-22,Fleet and Workshop,0.6858
+2021-11-29,Fleet and Workshop,0.672
+2021-12-06,Fleet and Workshop,0.6546
+2021-12-13,Fleet and Workshop,0.6409
+2021-12-20,Fleet and Workshop,0.5463
+2021-12-27,Fleet and Workshop,0.5559
+2022-01-03,Fleet and Workshop,0.6561
+2022-01-10,Fleet and Workshop,0.7219
+2022-01-17,Fleet and Workshop,0.7374
+2022-01-24,Fleet and Workshop,0.7293
+2022-01-31,Fleet and Workshop,0.7183
+2022-02-07,Fleet and Workshop,0.7267
+2022-02-14,Fleet and Workshop,0.7541
+2022-02-21,Fleet and Workshop,0.7807
+2022-02-28,Fleet and Workshop,0.8172
+2022-03-07,Fleet and Workshop,0.8196
+2022-03-14,Fleet and Workshop,0.7997
+2022-03-21,Fleet and Workshop,0.7944
+2022-03-28,Fleet and Workshop,0.8273
+2022-04-04,Fleet and Workshop,0.8041
+2022-04-11,Fleet and Workshop,0.7845
+2022-04-18,Fleet and Workshop,0.7842
+2022-04-25,Fleet and Workshop,0.8033
+2022-05-02,Fleet and Workshop,0.7743
+2022-05-09,Fleet and Workshop,0.8057
+2022-05-16,Fleet and Workshop,0.7917
+2022-05-23,Fleet and Workshop,0.7711
+2022-05-30,Fleet and Workshop,0.7584
+2022-06-06,Fleet and Workshop,0.7666
+2022-06-13,Fleet and Workshop,0.7696
+2022-06-20,Fleet and Workshop,0.7848
+2022-06-27,Fleet and Workshop,0.7782
+2022-07-04,Fleet and Workshop,0.7474
+2022-07-11,Fleet and Workshop,0.7285
+2022-07-18,Fleet and Workshop,0.7233
+2022-07-25,Fleet and Workshop,0.7325
+2022-08-01,Fleet and Workshop,0.6798
+2022-08-08,Fleet and Workshop,0.6497
+2022-08-15,Fleet and Workshop,0.6827
+2022-08-22,Fleet and Workshop,0.6878
+2022-08-29,Fleet and Workshop,0.7069
+2022-09-05,Fleet and Workshop,0.6952
+2022-09-12,Fleet and Workshop,0.6597
+2022-09-19,Fleet and Workshop,0.6459
+2022-09-26,Fleet and Workshop,0.661
+2022-10-03,Fleet and Workshop,0.6932
+2022-10-10,Fleet and Workshop,0.7314
+2022-10-17,Fleet and Workshop,0.7057
+2022-10-24,Fleet and Workshop,0.6875
+2022-10-31,Fleet and Workshop,0.6698
+2022-11-07,Fleet and Workshop,0.6884
+2022-11-14,Fleet and Workshop,0.6924
+2022-11-21,Fleet and Workshop,0.7292
+2022-11-28,Fleet and Workshop,0.7441
+2022-12-05,Fleet and Workshop,0.7171
+2022-12-12,Fleet and Workshop,0.7239
+2022-12-19,Fleet and Workshop,0.5799
+2022-12-26,Fleet and Workshop,0.5727
+2023-01-02,Fleet and Workshop,0.6828
+2023-01-09,Fleet and Workshop,0.7579
+2023-01-16,Fleet and Workshop,0.7663
+2023-01-23,Fleet and Workshop,0.7703
+2023-01-30,Fleet and Workshop,0.7755
+2023-02-06,Fleet and Workshop,0.7695
+2023-02-13,Fleet and Workshop,0.7675
+2023-02-20,Fleet and Workshop,0.7949
+2023-02-27,Fleet and Workshop,0.8175
+2023-03-06,Fleet and Workshop,0.8127
+2023-03-13,Fleet and Workshop,0.8105
+2023-03-20,Fleet and Workshop,0.8497
+2023-03-27,Fleet and Workshop,0.8162
+2023-04-03,Fleet and Workshop,0.809
+2023-04-10,Fleet and Workshop,0.7569
+2023-04-17,Fleet and Workshop,0.737
+2023-04-24,Fleet and Workshop,0.7231
+2023-05-01,Fleet and Workshop,0.7399
+2023-05-08,Fleet and Workshop,0.7224
+2023-05-15,Fleet and Workshop,0.7324
+2023-05-22,Fleet and Workshop,0.7232
+2023-05-29,Fleet and Workshop,0.7203
+2023-06-05,Fleet and Workshop,0.718
+2023-06-12,Fleet and Workshop,0.732
+2023-06-19,Fleet and Workshop,0.74
+2023-06-26,Fleet and Workshop,0.7381
+2023-07-03,Fleet and Workshop,0.7056
+2023-07-10,Fleet and Workshop,0.6768
+2023-07-17,Fleet and Workshop,0.6969
+2023-07-24,Fleet and Workshop,0.7137
+2023-07-31,Fleet and Workshop,0.6973
+2023-08-07,Fleet and Workshop,0.7203
+2023-08-14,Fleet and Workshop,0.6696
+2023-08-21,Fleet and Workshop,0.6916
+2023-08-28,Fleet and Workshop,0.714
+2023-09-04,Fleet and Workshop,0.6769
+2023-09-11,Fleet and Workshop,0.6562
+2023-09-18,Fleet and Workshop,0.6698
+2023-09-25,Fleet and Workshop,0.6597
+2023-10-02,Fleet and Workshop,0.641
+2023-10-09,Fleet and Workshop,0.6179
+2023-10-16,Fleet and Workshop,0.644
+2023-10-23,Fleet and Workshop,0.6408
+2023-10-30,Fleet and Workshop,0.669
+2023-11-06,Fleet and Workshop,0.6541
+2023-11-13,Fleet and Workshop,0.6597
+2023-11-20,Fleet and Workshop,0.6612
+2023-11-27,Fleet and Workshop,0.6379
+2023-12-04,Fleet and Workshop,0.6591
+2023-12-11,Fleet and Workshop,0.6739
+2023-12-18,Fleet and Workshop,0.5483
+2023-12-25,Fleet and Workshop,0.5694
+2024-01-01,Fleet and Workshop,0.6938
+2024-01-08,Fleet and Workshop,0.7386
+2024-01-15,Fleet and Workshop,0.7412
+2024-01-22,Fleet and Workshop,0.7361
+2024-01-29,Fleet and Workshop,0.7141
+2024-02-05,Fleet and Workshop,0.7067
+2024-02-12,Fleet and Workshop,0.702
+2024-02-19,Fleet and Workshop,0.7044
+2024-02-26,Fleet and Workshop,0.7043
+2024-03-04,Fleet and Workshop,0.7318
+2024-03-11,Fleet and Workshop,0.7289
+2024-03-18,Fleet and Workshop,0.7188
+2024-03-25,Fleet and Workshop,0.7326
+2024-04-01,Fleet and Workshop,0.7432
+2024-04-08,Fleet and Workshop,0.7557
+2024-04-15,Fleet and Workshop,0.7735
+2024-04-22,Fleet and Workshop,0.7784
+2024-04-29,Fleet and Workshop,0.7756
+2024-05-06,Fleet and Workshop,0.7713
+2024-05-13,Fleet and Workshop,0.774
+2024-05-20,Fleet and Workshop,0.776
+2024-05-27,Fleet and Workshop,0.8044
+2024-06-03,Fleet and Workshop,0.7891
+2024-06-10,Fleet and Workshop,0.8004
+2024-06-17,Fleet and Workshop,0.783
+2024-06-24,Fleet and Workshop,0.7623
+2024-07-01,Fleet and Workshop,0.718
+2024-07-08,Fleet and Workshop,0.7259
+2024-07-15,Fleet and Workshop,0.706
+2024-07-22,Fleet and Workshop,0.7111
+2024-07-29,Fleet and Workshop,0.7065
+2024-08-05,Fleet and Workshop,0.6947
+2024-08-12,Fleet and Workshop,0.6813
+2024-08-19,Fleet and Workshop,0.7076
+2024-08-26,Fleet and Workshop,0.7345
+2024-09-02,Fleet and Workshop,0.706
+2024-09-09,Fleet and Workshop,0.6769
+2024-09-16,Fleet and Workshop,0.6866
+2024-09-23,Fleet and Workshop,0.6795
+2024-09-30,Fleet and Workshop,0.6846
+2024-10-07,Fleet and Workshop,0.6559
+2024-10-14,Fleet and Workshop,0.6734
+2024-10-21,Fleet and Workshop,0.6306
+2024-10-28,Fleet and Workshop,0.6603
+2024-11-04,Fleet and Workshop,0.6825
+2024-11-11,Fleet and Workshop,0.6272
+2024-11-18,Fleet and Workshop,0.636
+2024-11-25,Fleet and Workshop,0.6538
+2024-12-02,Fleet and Workshop,0.6891
+2024-12-09,Fleet and Workshop,0.6595
+2024-12-16,Fleet and Workshop,0.6834
+2024-12-23,Fleet and Workshop,0.5586
+2024-12-30,Fleet and Workshop,0.5494
+2025-01-06,Fleet and Workshop,0.649
+2025-01-13,Fleet and Workshop,0.7183
+2025-01-20,Fleet and Workshop,0.7252
+2025-01-27,Fleet and Workshop,0.7113
+2025-02-03,Fleet and Workshop,0.7185
+2025-02-10,Fleet and Workshop,0.7447
+2025-02-17,Fleet and Workshop,0.7414
+2025-02-24,Fleet and Workshop,0.7468
+2025-03-03,Fleet and Workshop,0.754
+2025-03-10,Fleet and Workshop,0.7845
+2025-03-17,Fleet and Workshop,0.7895
+2025-03-24,Fleet and Workshop,0.7843
+2025-03-31,Fleet and Workshop,0.7925
+2025-04-07,Fleet and Workshop,0.7893
+2025-04-14,Fleet and Workshop,0.7819
+2025-04-21,Fleet and Workshop,0.7552
+2025-04-28,Fleet and Workshop,0.7523
+2025-05-05,Fleet and Workshop,0.7235
+2025-05-12,Fleet and Workshop,0.695
+2025-05-19,Fleet and Workshop,0.7104
+2025-05-26,Fleet and Workshop,0.7224
+2025-06-02,Fleet and Workshop,0.7431
+2025-06-09,Fleet and Workshop,0.7397
+2025-06-16,Fleet and Workshop,0.7245
+2025-06-23,Fleet and Workshop,0.7291
+2025-06-30,Fleet and Workshop,0.7462
+2025-07-07,Fleet and Workshop,0.7365
+2025-07-14,Fleet and Workshop,0.7248
+2025-07-21,Fleet and Workshop,0.723
+2025-07-28,Fleet and Workshop,0.7298
+2025-08-04,Fleet and Workshop,0.7064
+2025-08-11,Fleet and Workshop,0.6999
+2025-08-18,Fleet and Workshop,0.7123
+2025-08-25,Fleet and Workshop,0.7116
+2025-09-01,Fleet and Workshop,0.71
+2025-09-08,Fleet and Workshop,0.6883
+2025-09-15,Fleet and Workshop,0.6641
+2025-09-22,Fleet and Workshop,0.6578
+2025-09-29,Fleet and Workshop,0.6859
+2025-10-06,Fleet and Workshop,0.6563
+2025-10-13,Fleet and Workshop,0.6491
+2025-10-20,Fleet and Workshop,0.6609
+2025-10-27,Fleet and Workshop,0.6423
+2025-11-03,Fleet and Workshop,0.658
+2025-11-10,Fleet and Workshop,0.6647
+2025-11-17,Fleet and Workshop,0.6627
+2025-11-24,Fleet and Workshop,0.6946
+2025-12-01,Fleet and Workshop,0.6874
+2025-12-08,Fleet and Workshop,0.6939
+2025-12-15,Fleet and Workshop,0.6922
+2025-12-22,Fleet and Workshop,0.5551
+2025-12-29,Fleet and Workshop,0.5508
+2021-06-07,Power Generation,0.685
+2021-06-14,Power Generation,0.668
+2021-06-21,Power Generation,0.6687
+2021-06-28,Power Generation,0.6885
+2021-07-05,Power Generation,0.7013
+2021-07-12,Power Generation,0.6926
+2021-07-19,Power Generation,0.6872
+2021-07-26,Power Generation,0.702
+2021-08-02,Power Generation,0.7025
+2021-08-09,Power Generation,0.704
+2021-08-16,Power Generation,0.6849
+2021-08-23,Power Generation,0.6796
+2021-08-30,Power Generation,0.7117
+2021-09-06,Power Generation,0.7119
+2021-09-13,Power Generation,0.712
+2021-09-20,Power Generation,0.7063
+2021-09-27,Power Generation,0.7067
+2021-10-04,Power Generation,0.698
+2021-10-11,Power Generation,0.7238
+2021-10-18,Power Generation,0.6951
+2021-10-25,Power Generation,0.6829
+2021-11-01,Power Generation,0.7282
+2021-11-08,Power Generation,0.7264
+2021-11-15,Power Generation,0.7272
+2021-11-22,Power Generation,0.7332
+2021-11-29,Power Generation,0.7254
+2021-12-06,Power Generation,0.7351
+2021-12-13,Power Generation,0.744
+2021-12-20,Power Generation,0.6096
+2021-12-27,Power Generation,0.609
+2022-01-03,Power Generation,0.7061
+2022-01-10,Power Generation,0.7619
+2022-01-17,Power Generation,0.7867
+2022-01-24,Power Generation,0.7978
+2022-01-31,Power Generation,0.7797
+2022-02-07,Power Generation,0.7844
+2022-02-14,Power Generation,0.7781
+2022-02-21,Power Generation,0.761
+2022-02-28,Power Generation,0.7335
+2022-03-07,Power Generation,0.7184
+2022-03-14,Power Generation,0.7323
+2022-03-21,Power Generation,0.732
+2022-03-28,Power Generation,0.6771
+2022-04-04,Power Generation,0.7129
+2022-04-11,Power Generation,0.7155
+2022-04-18,Power Generation,0.6923
+2022-04-25,Power Generation,0.7243
+2022-05-02,Power Generation,0.7076
+2022-05-09,Power Generation,0.7048
+2022-05-16,Power Generation,0.7114
+2022-05-23,Power Generation,0.7011
+2022-05-30,Power Generation,0.6861
+2022-06-06,Power Generation,0.7086
+2022-06-13,Power Generation,0.714
+2022-06-20,Power Generation,0.7169
+2022-06-27,Power Generation,0.6762
+2022-07-04,Power Generation,0.6603
+2022-07-11,Power Generation,0.7009
+2022-07-18,Power Generation,0.7234
+2022-07-25,Power Generation,0.7222
+2022-08-01,Power Generation,0.7081
+2022-08-08,Power Generation,0.7095
+2022-08-15,Power Generation,0.6891
+2022-08-22,Power Generation,0.6819
+2022-08-29,Power Generation,0.6993
+2022-09-05,Power Generation,0.7045
+2022-09-12,Power Generation,0.714
+2022-09-19,Power Generation,0.7001
+2022-09-26,Power Generation,0.7364
+2022-10-03,Power Generation,0.7263
+2022-10-10,Power Generation,0.7167
+2022-10-17,Power Generation,0.725
+2022-10-24,Power Generation,0.7288
+2022-10-31,Power Generation,0.7769
+2022-11-07,Power Generation,0.7605
+2022-11-14,Power Generation,0.7497
+2022-11-21,Power Generation,0.7185
+2022-11-28,Power Generation,0.7489
+2022-12-05,Power Generation,0.7744
+2022-12-12,Power Generation,0.7635
+2022-12-19,Power Generation,0.5905
+2022-12-26,Power Generation,0.6031
+2023-01-02,Power Generation,0.7207
+2023-01-09,Power Generation,0.7768
+2023-01-16,Power Generation,0.7741
+2023-01-23,Power Generation,0.798
+2023-01-30,Power Generation,0.7865
+2023-02-06,Power Generation,0.7689
+2023-02-13,Power Generation,0.7622
+2023-02-20,Power Generation,0.7523
+2023-02-27,Power Generation,0.7417
+2023-03-06,Power Generation,0.7252
+2023-03-13,Power Generation,0.7237
+2023-03-20,Power Generation,0.7215
+2023-03-27,Power Generation,0.7459
+2023-04-03,Power Generation,0.6993
+2023-04-10,Power Generation,0.6927
+2023-04-17,Power Generation,0.727
+2023-04-24,Power Generation,0.719
+2023-05-01,Power Generation,0.6716
+2023-05-08,Power Generation,0.6922
+2023-05-15,Power Generation,0.6826
+2023-05-22,Power Generation,0.6913
+2023-05-29,Power Generation,0.6749
+2023-06-05,Power Generation,0.654
+2023-06-12,Power Generation,0.668
+2023-06-19,Power Generation,0.652
+2023-06-26,Power Generation,0.6552
+2023-07-03,Power Generation,0.6721
+2023-07-10,Power Generation,0.6465
+2023-07-17,Power Generation,0.6584
+2023-07-24,Power Generation,0.6507
+2023-07-31,Power Generation,0.6321
+2023-08-07,Power Generation,0.6179
+2023-08-14,Power Generation,0.6221
+2023-08-21,Power Generation,0.6255
+2023-08-28,Power Generation,0.6647
+2023-09-04,Power Generation,0.6888
+2023-09-11,Power Generation,0.671
+2023-09-18,Power Generation,0.6691
+2023-09-25,Power Generation,0.6683
+2023-10-02,Power Generation,0.7086
+2023-10-09,Power Generation,0.6825
+2023-10-16,Power Generation,0.7036
+2023-10-23,Power Generation,0.7173
+2023-10-30,Power Generation,0.7256
+2023-11-06,Power Generation,0.7462
+2023-11-13,Power Generation,0.7635
+2023-11-20,Power Generation,0.7586
+2023-11-27,Power Generation,0.7146
+2023-12-04,Power Generation,0.7287
+2023-12-11,Power Generation,0.7501
+2023-12-18,Power Generation,0.5847
+2023-12-25,Power Generation,0.5823
+2024-01-01,Power Generation,0.6583
+2024-01-08,Power Generation,0.7422
+2024-01-15,Power Generation,0.7437
+2024-01-22,Power Generation,0.7318
+2024-01-29,Power Generation,0.7196
+2024-02-05,Power Generation,0.7123
+2024-02-12,Power Generation,0.7238
+2024-02-19,Power Generation,0.7508
+2024-02-26,Power Generation,0.7527
+2024-03-04,Power Generation,0.7287
+2024-03-11,Power Generation,0.7373
+2024-03-18,Power Generation,0.7194
+2024-03-25,Power Generation,0.7223
+2024-04-01,Power Generation,0.7414
+2024-04-08,Power Generation,0.7087
+2024-04-15,Power Generation,0.7106
+2024-04-22,Power Generation,0.6949
+2024-04-29,Power Generation,0.7077
+2024-05-06,Power Generation,0.6792
+2024-05-13,Power Generation,0.663
+2024-05-20,Power Generation,0.6604
+2024-05-27,Power Generation,0.6854
+2024-06-03,Power Generation,0.7016
+2024-06-10,Power Generation,0.6836
+2024-06-17,Power Generation,0.6644
+2024-06-24,Power Generation,0.6728
+2024-07-01,Power Generation,0.6583
+2024-07-08,Power Generation,0.6868
+2024-07-15,Power Generation,0.6743
+2024-07-22,Power Generation,0.633
+2024-07-29,Power Generation,0.6489
+2024-08-05,Power Generation,0.6422
+2024-08-12,Power Generation,0.6417
+2024-08-19,Power Generation,0.6731
+2024-08-26,Power Generation,0.6333
+2024-09-02,Power Generation,0.6414
+2024-09-09,Power Generation,0.6297
+2024-09-16,Power Generation,0.6724
+2024-09-23,Power Generation,0.6986
+2024-09-30,Power Generation,0.7258
+2024-10-07,Power Generation,0.7522
+2024-10-14,Power Generation,0.715
+2024-10-21,Power Generation,0.7333
+2024-10-28,Power Generation,0.7231
+2024-11-04,Power Generation,0.7232
+2024-11-11,Power Generation,0.7694
+2024-11-18,Power Generation,0.7586
+2024-11-25,Power Generation,0.7416
+2024-12-02,Power Generation,0.7596
+2024-12-09,Power Generation,0.7681
+2024-12-16,Power Generation,0.7498
+2024-12-23,Power Generation,0.6109
+2024-12-30,Power Generation,0.6278
+2025-01-06,Power Generation,0.7334
+2025-01-13,Power Generation,0.8064
+2025-01-20,Power Generation,0.8114
+2025-01-27,Power Generation,0.7969
+2025-02-03,Power Generation,0.8308
+2025-02-10,Power Generation,0.8585
+2025-02-17,Power Generation,0.8115
+2025-02-24,Power Generation,0.8119
+2025-03-03,Power Generation,0.7761
+2025-03-10,Power Generation,0.7548
+2025-03-17,Power Generation,0.7246
+2025-03-24,Power Generation,0.7229
+2025-03-31,Power Generation,0.7348
+2025-04-07,Power Generation,0.7464
+2025-04-14,Power Generation,0.7508
+2025-04-21,Power Generation,0.6983
+2025-04-28,Power Generation,0.7061
+2025-05-05,Power Generation,0.6589
+2025-05-12,Power Generation,0.6824
+2025-05-19,Power Generation,0.6619
+2025-05-26,Power Generation,0.6791
+2025-06-02,Power Generation,0.6893
+2025-06-09,Power Generation,0.6644
+2025-06-16,Power Generation,0.6796
+2025-06-23,Power Generation,0.6625
+2025-06-30,Power Generation,0.6754
+2025-07-07,Power Generation,0.6498
+2025-07-14,Power Generation,0.6625
+2025-07-21,Power Generation,0.6743
+2025-07-28,Power Generation,0.6803
+2025-08-04,Power Generation,0.6776
+2025-08-11,Power Generation,0.696
+2025-08-18,Power Generation,0.729
+2025-08-25,Power Generation,0.7375
+2025-09-01,Power Generation,0.7559
+2025-09-08,Power Generation,0.7579
+2025-09-15,Power Generation,0.742
+2025-09-22,Power Generation,0.7396
+2025-09-29,Power Generation,0.7601
+2025-10-06,Power Generation,0.7162
+2025-10-13,Power Generation,0.7564
+2025-10-20,Power Generation,0.7435
+2025-10-27,Power Generation,0.7527
+2025-11-03,Power Generation,0.7678
+2025-11-10,Power Generation,0.752
+2025-11-17,Power Generation,0.7261
+2025-11-24,Power Generation,0.7572
+2025-12-01,Power Generation,0.7655
+2025-12-08,Power Generation,0.7246
+2025-12-15,Power Generation,0.6973
+2025-12-22,Power Generation,0.5696
+2025-12-29,Power Generation,0.5754
+2021-06-07,Marine Services,0.67
+2021-06-14,Marine Services,0.686
+2021-06-21,Marine Services,0.6121
+2021-06-28,Marine Services,0.6078
+2021-07-05,Marine Services,0.6599
+2021-07-12,Marine Services,0.6544
+2021-07-19,Marine Services,0.6586
+2021-07-26,Marine Services,0.6821
+2021-08-02,Marine Services,0.7049
+2021-08-09,Marine Services,0.7218
+2021-08-16,Marine Services,0.7583
+2021-08-23,Marine Services,0.7493
+2021-08-30,Marine Services,0.7276
+2021-09-06,Marine Services,0.7223
+2021-09-13,Marine Services,0.725
+2021-09-20,Marine Services,0.7321
+2021-09-27,Marine Services,0.7474
+2021-10-04,Marine Services,0.7563
+2021-10-11,Marine Services,0.769
+2021-10-18,Marine Services,0.7654
+2021-10-25,Marine Services,0.756
+2021-11-01,Marine Services,0.7175
+2021-11-08,Marine Services,0.7391
+2021-11-15,Marine Services,0.7222
+2021-11-22,Marine Services,0.7405
+2021-11-29,Marine Services,0.7504
+2021-12-06,Marine Services,0.7805
+2021-12-13,Marine Services,0.7975
+2021-12-20,Marine Services,0.6359
+2021-12-27,Marine Services,0.6294
+2022-01-03,Marine Services,0.7282
+2022-01-10,Marine Services,0.7888
+2022-01-17,Marine Services,0.7761
+2022-01-24,Marine Services,0.7528
+2022-01-31,Marine Services,0.7203
+2022-02-07,Marine Services,0.7297
+2022-02-14,Marine Services,0.741
+2022-02-21,Marine Services,0.7241
+2022-02-28,Marine Services,0.7313
+2022-03-07,Marine Services,0.717
+2022-03-14,Marine Services,0.7271
+2022-03-21,Marine Services,0.7202
+2022-03-28,Marine Services,0.707
+2022-04-04,Marine Services,0.7134
+2022-04-11,Marine Services,0.7021
+2022-04-18,Marine Services,0.7018
+2022-04-25,Marine Services,0.6898
+2022-05-02,Marine Services,0.6875
+2022-05-09,Marine Services,0.7156
+2022-05-16,Marine Services,0.7084
+2022-05-23,Marine Services,0.7033
+2022-05-30,Marine Services,0.6722
+2022-06-06,Marine Services,0.6663
+2022-06-13,Marine Services,0.6774
+2022-06-20,Marine Services,0.6675
+2022-06-27,Marine Services,0.6952
+2022-07-04,Marine Services,0.7312
+2022-07-11,Marine Services,0.6914
+2022-07-18,Marine Services,0.6729
+2022-07-25,Marine Services,0.6968
+2022-08-01,Marine Services,0.6884
+2022-08-08,Marine Services,0.6901
+2022-08-15,Marine Services,0.7012
+2022-08-22,Marine Services,0.68
+2022-08-29,Marine Services,0.6978
+2022-09-05,Marine Services,0.7143
+2022-09-12,Marine Services,0.7196
+2022-09-19,Marine Services,0.7267
+2022-09-26,Marine Services,0.7324
+2022-10-03,Marine Services,0.7217
+2022-10-10,Marine Services,0.7339
+2022-10-17,Marine Services,0.7356
+2022-10-24,Marine Services,0.7363
+2022-10-31,Marine Services,0.7624
+2022-11-07,Marine Services,0.737
+2022-11-14,Marine Services,0.7012
+2022-11-21,Marine Services,0.7191
+2022-11-28,Marine Services,0.7494
+2022-12-05,Marine Services,0.7726
+2022-12-12,Marine Services,0.7841
+2022-12-19,Marine Services,0.6174
+2022-12-26,Marine Services,0.5865
+2023-01-02,Marine Services,0.7
+2023-01-09,Marine Services,0.7616
+2023-01-16,Marine Services,0.7674
+2023-01-23,Marine Services,0.7908
+2023-01-30,Marine Services,0.7731
+2023-02-06,Marine Services,0.7593
+2023-02-13,Marine Services,0.7613
+2023-02-20,Marine Services,0.7473
+2023-02-27,Marine Services,0.7274
+2023-03-06,Marine Services,0.7138
+2023-03-13,Marine Services,0.7083
+2023-03-20,Marine Services,0.6936
+2023-03-27,Marine Services,0.6748
+2023-04-03,Marine Services,0.6522
+2023-04-10,Marine Services,0.665
+2023-04-17,Marine Services,0.6474
+2023-04-24,Marine Services,0.6457
+2023-05-01,Marine Services,0.6244
+2023-05-08,Marine Services,0.6196
+2023-05-15,Marine Services,0.6125
+2023-05-22,Marine Services,0.6563
+2023-05-29,Marine Services,0.6485
+2023-06-05,Marine Services,0.6508
+2023-06-12,Marine Services,0.6682
+2023-06-19,Marine Services,0.6562
+2023-06-26,Marine Services,0.6807
+2023-07-03,Marine Services,0.6693
+2023-07-10,Marine Services,0.6645
+2023-07-17,Marine Services,0.6918
+2023-07-24,Marine Services,0.7029
+2023-07-31,Marine Services,0.6951
+2023-08-07,Marine Services,0.6739
+2023-08-14,Marine Services,0.6715
+2023-08-21,Marine Services,0.6794
+2023-08-28,Marine Services,0.6597
+2023-09-04,Marine Services,0.6384
+2023-09-11,Marine Services,0.6614
+2023-09-18,Marine Services,0.6841
+2023-09-25,Marine Services,0.7101
+2023-10-02,Marine Services,0.7209
+2023-10-09,Marine Services,0.7099
+2023-10-16,Marine Services,0.6966
+2023-10-23,Marine Services,0.7287
+2023-10-30,Marine Services,0.7316
+2023-11-06,Marine Services,0.7474
+2023-11-13,Marine Services,0.744
+2023-11-20,Marine Services,0.7649
+2023-11-27,Marine Services,0.7593
+2023-12-04,Marine Services,0.7577
+2023-12-11,Marine Services,0.7454
+2023-12-18,Marine Services,0.5844
+2023-12-25,Marine Services,0.6186
+2024-01-01,Marine Services,0.7148
+2024-01-08,Marine Services,0.7869
+2024-01-15,Marine Services,0.8004
+2024-01-22,Marine Services,0.7891
+2024-01-29,Marine Services,0.7835
+2024-02-05,Marine Services,0.7785
+2024-02-12,Marine Services,0.7842
+2024-02-19,Marine Services,0.777
+2024-02-26,Marine Services,0.7797
+2024-03-04,Marine Services,0.781
+2024-03-11,Marine Services,0.7582
+2024-03-18,Marine Services,0.739
+2024-03-25,Marine Services,0.7464
+2024-04-01,Marine Services,0.7278
+2024-04-08,Marine Services,0.7192
+2024-04-15,Marine Services,0.6937
+2024-04-22,Marine Services,0.6647
+2024-04-29,Marine Services,0.6963
+2024-05-06,Marine Services,0.6946
+2024-05-13,Marine Services,0.6692
+2024-05-20,Marine Services,0.6701
+2024-05-27,Marine Services,0.6705
+2024-06-03,Marine Services,0.6612
+2024-06-10,Marine Services,0.639
+2024-06-17,Marine Services,0.6227
+2024-06-24,Marine Services,0.6249
+2024-07-01,Marine Services,0.6205
+2024-07-08,Marine Services,0.6596
+2024-07-15,Marine Services,0.661
+2024-07-22,Marine Services,0.6751
+2024-07-29,Marine Services,0.7028
+2024-08-05,Marine Services,0.7255
+2024-08-12,Marine Services,0.7385
+2024-08-19,Marine Services,0.7505
+2024-08-26,Marine Services,0.7388
+2024-09-02,Marine Services,0.7198
+2024-09-09,Marine Services,0.7071
+2024-09-16,Marine Services,0.7233
+2024-09-23,Marine Services,0.7206
+2024-09-30,Marine Services,0.7111
+2024-10-07,Marine Services,0.7515
+2024-10-14,Marine Services,0.7095
+2024-10-21,Marine Services,0.7246
+2024-10-28,Marine Services,0.7548
+2024-11-04,Marine Services,0.8005
+2024-11-11,Marine Services,0.7881
+2024-11-18,Marine Services,0.8006
+2024-11-25,Marine Services,0.7815
+2024-12-02,Marine Services,0.806
+2024-12-09,Marine Services,0.7893
+2024-12-16,Marine Services,0.7784
+2024-12-23,Marine Services,0.5838
+2024-12-30,Marine Services,0.6043
+2025-01-06,Marine Services,0.6751
+2025-01-13,Marine Services,0.7707
+2025-01-20,Marine Services,0.7795
+2025-01-27,Marine Services,0.7417
+2025-02-03,Marine Services,0.7385
+2025-02-10,Marine Services,0.7162
+2025-02-17,Marine Services,0.7473
+2025-02-24,Marine Services,0.7487
+2025-03-03,Marine Services,0.8159
+2025-03-10,Marine Services,0.8023
+2025-03-17,Marine Services,0.8083
+2025-03-24,Marine Services,0.7734
+2025-03-31,Marine Services,0.7471
+2025-04-07,Marine Services,0.7689
+2025-04-14,Marine Services,0.8032
+2025-04-21,Marine Services,0.7731
+2025-04-28,Marine Services,0.7811
+2025-05-05,Marine Services,0.7512
+2025-05-12,Marine Services,0.7434
+2025-05-19,Marine Services,0.745
+2025-05-26,Marine Services,0.7264
+2025-06-02,Marine Services,0.7571
+2025-06-09,Marine Services,0.7245
+2025-06-16,Marine Services,0.7138
+2025-06-23,Marine Services,0.7239
+2025-06-30,Marine Services,0.7272
+2025-07-07,Marine Services,0.721
+2025-07-14,Marine Services,0.7673
+2025-07-21,Marine Services,0.7648
+2025-07-28,Marine Services,0.7793
+2025-08-04,Marine Services,0.7908
+2025-08-11,Marine Services,0.7734
+2025-08-18,Marine Services,0.7931
+2025-08-25,Marine Services,0.7972
+2025-09-01,Marine Services,0.7568
+2025-09-08,Marine Services,0.7549
+2025-09-15,Marine Services,0.789
+2025-09-22,Marine Services,0.8108
+2025-09-29,Marine Services,0.8464
+2025-10-06,Marine Services,0.8035
+2025-10-13,Marine Services,0.8324
+2025-10-20,Marine Services,0.8158
+2025-10-27,Marine Services,0.8368
+2025-11-03,Marine Services,0.8361
+2025-11-10,Marine Services,0.8357
+2025-11-17,Marine Services,0.8449
+2025-11-24,Marine Services,0.8316
+2025-12-01,Marine Services,0.8193
+2025-12-08,Marine Services,0.8181
+2025-12-15,Marine Services,0.8345
+2025-12-22,Marine Services,0.6776
+2025-12-29,Marine Services,0.6774
