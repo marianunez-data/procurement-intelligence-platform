@@ -1,0 +1,23 @@
+kpi_id,kpi_name,area,unit,direction,target,amber_threshold,owner,definition,formula
+K01,PR-to-Receipt Cycle Time P50,North Star,days,lower_is_better,60,80,Head of Procurement,"Median days from purchase requisition creation to goods receipt, for lines received in the period",median(gr_posted_on - pr_created_on) over lines received in period
+K02,Critical Parts On-Time Rate,North Star,%,higher_is_better,0.55,0.45,Head of Maintenance,Share of critical corrective-maintenance lines received within 45 days of the requisition,count(critical CM lines received <= 45 days) / count(critical CM lines received)
+K03,Open Backlog Lines,Backlog,lines,lower_is_better,1800,2100,Procurement Manager,Requisition lines not yet received and not cancelled at the end of the period,count(lines open at period end)
+K04,Open Backlog Value,Backlog,USD,lower_is_better,4000000,4800000,Procurement Manager,Estimated value of open requisition lines at the end of the period,sum(line value of open lines)
+K05,Backlog Aged over 90 Days,Backlog,%,lower_is_better,0.30,0.40,Procurement Manager,Share of open lines older than 90 days,count(open lines age > 90) / count(open lines)
+K06,Backlog Aged over 150 Days,Backlog,%,lower_is_better,0.10,0.18,Procurement Manager,Share of open lines older than 150 days,count(open lines age > 150) / count(open lines)
+K07,Backlog Burn Rate,Backlog,ratio,higher_is_better,1.00,0.90,Procurement Manager,Lines closed (received or cancelled) divided by lines created in the period; above 1 means the backlog is shrinking,closed lines / created lines
+K08,PR Release to RFQ Time P50,Cycle Time,days,lower_is_better,5,8,Buying Team Leads,Median days a released requisition waits before the buyer issues an RFQ,median(rfq_created_on - pr_released_on)
+K09,PO Approval Time P50 (MD level),Cycle Time,days,lower_is_better,3,5,Managing Director Office,Median days from PO submission to final MD approval,median(po_approved_on - approval_submitted_on) for MD-level POs
+K10,PO to Delivery Lead Time P50,Cycle Time,days,lower_is_better,40,50,Supplier Managers,Median days from PO approval to physical delivery,median(delivered_on - po_approved_on)
+K11,OTIF,Supplier,%,higher_is_better,0.60,0.45,Supplier Managers,On time in full: delivered complete on or before the promised date,count(lines delivered complete by promised date) / count(lines delivered)
+K12,Lead-Time Variability (CV),Supplier,ratio,lower_is_better,0.60,0.75,Supplier Managers,Coefficient of variation of PO-to-delivery lead time,stddev(lead time) / mean(lead time)
+K13,Inspection Rejection Rate,Supplier,%,lower_is_better,0.02,0.035,Quality Lead,Share of deliveries rejected at inspection,count(rejected deliveries) / count(deliveries)
+K14,Local Sourcing Share,Supplier,%,higher_is_better,0.55,0.45,Head of Procurement,Share of PO lines placed with local suppliers,count(local PO lines) / count(PO lines)
+K15,PO Rejection Rate,Process,%,lower_is_better,0.02,0.04,Managing Director Office,Share of POs rejected at the first approval decision,count(rejected first decisions) / count(first decisions)
+K16,Reactive Demand Share (CM),Process,%,lower_is_better,0.45,0.55,Head of Maintenance,Share of requisition lines raised for corrective maintenance,count(CM lines) / count(lines)
+K17,POs Awaiting Downpayment,Process,POs,lower_is_better,60,100,Finance Controller,Approved POs that require a downpayment that has not been paid at period end,count(approved POs with downpayment pending)
+K18,Cash Out,Financial,USD,neutral,,,Finance Controller,Downpayments and final payments made in the period,sum(payments in period)
+K19,Purchase Price Variance,Financial,%,lower_is_better,0.00,0.03,Head of Procurement,"PO price against the estimated (standard) price, weighted by value",sum(po value) / sum(estimated value) - 1
+K20,Work Orders Waiting for Parts,Operations,work orders,lower_is_better,800,1000,Head of Maintenance,Open work orders with at least one open requisition line at period end,count(open WOs with open lines)
+K21,Critical Work Orders Waiting for Parts,Operations,work orders,lower_is_better,100,140,Head of Maintenance,Open corrective work orders on criticality-A equipment that are still waiting for at least one part at period end,count(open critical-A CM WOs with open lines)
+K22,Data Quality Clean Rate,Data Quality,%,higher_is_better,0.99,0.98,Data Owner,"Share of PO lines created in the period that needed no data-quality repair (supplier, price, date, quantity)",1 - count(PO lines with any dq flag) / count(PO lines)

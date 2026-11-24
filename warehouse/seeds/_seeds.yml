@@ -1,0 +1,8 @@
+version: 2
+seeds:
+  - name: kpi_catalog
+    description: Single source of truth for KPI definitions, targets, thresholds and owners.
+    config:
+      column_types: {target: double, amber_threshold: double}
+  - name: section_aliases
+    description: Maps messy manual section text to the governed section id.

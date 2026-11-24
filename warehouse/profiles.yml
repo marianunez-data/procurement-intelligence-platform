@@ -1,0 +1,7 @@
+p2p:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('P2P_DUCKDB_PATH', '../data/warehouse/p2p.duckdb') }}"
+      threads: 2

@@ -1,0 +1,33 @@
+version: 2
+
+sources:
+  - name: sap_raw
+    description: >
+      Raw extracts from the (fictional) SAP system of Quayline Offshore Logistics, exactly as
+      exported: text columns, mixed date formats and known data-quality defects.
+    meta:
+      external_location: "read_csv('{{ env_var('P2P_RAW_DIR', '../data/raw') }}/{name}.csv', header=true, all_varchar=true)"
+    tables:
+      - name: purchase_requisitions
+        description: One row per purchase-requisition line (PR item).
+      - name: rfqs
+        description: Requests for quotation issued by buyers, one row per PR line invited.
+      - name: purchase_orders
+        description: Purchase-order lines. One PO can contain several PR lines from the same supplier.
+      - name: po_approvals
+        description: Approval decisions. A rejected PO is resubmitted as approval cycle 2.
+      - name: payments
+        description: Downpayments (PO level) and final payments (PO item level).
+      - name: goods_receipts
+        description: Material documents. Movement 101 is a receipt, 122 a return to supplier. Dates in dd.mm.yyyy.
+      - name: work_orders
+        description: Maintenance work orders (CM = corrective, PM = planned).
+      - name: suppliers
+      - name: materials
+      - name: equipment
+      - name: sections
+      - name: purchasing_groups
+      - name: fx_rates
+        description: Daily exchange rate, local currency units per USD.
+      - name: operations_weekly
+        description: Weekly fleet utilisation per business unit.

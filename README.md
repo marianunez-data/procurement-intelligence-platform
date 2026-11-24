@@ -12,8 +12,8 @@ with honest uncertainty, predicts arrival dates for open orders and simulates ma
 
 ## Roadmap
 - [x] Project structure and configuration
-- [ ] Fictional data generator and data audit (notebooks 00 to 02)
-- [ ] dbt + DuckDB warehouse, KPI layer and SQL lab (notebooks 03 to 04)
+- [x] Fictional data generator and data audit (notebooks 00 to 02)
+- [x] dbt + DuckDB warehouse, KPI layer and SQL lab (notebooks 03 to 04)
 - [ ] EDA, time-based split and statistical models (notebooks 05 to 07)
 - [ ] Machine learning, deep learning, Monte Carlo and model arena (notebooks 08 to 11)
 - [ ] Survival analysis, conclusions, dashboard and AI agent (notebooks 12 to 13, app, agent)

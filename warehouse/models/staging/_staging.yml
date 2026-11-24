@@ -1,0 +1,33 @@
+version: 2
+models:
+  - name: stg_purchase_requisitions
+    description: Clean PR lines. Exact duplicates removed and free-text section names mapped to a section id.
+    columns:
+      - name: pr_line_key
+        description: Natural key, PR number and item.
+        data_tests: [unique, not_null]
+      - name: section_id
+        description: Section resolved through the section_aliases seed.
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('stg_sections'), field: section_id}}
+      - name: reason_code
+        data_tests:
+          - accepted_values: {arguments: {values: ['CM', 'PM', 'RESTOCK', 'PROJECT']}}
+  - name: stg_purchase_orders
+    description: PO lines with data-quality flags (missing supplier, zero price).
+    columns:
+      - name: po_line_key
+        data_tests: [unique, not_null]
+  - name: stg_goods_receipts
+    description: Material documents with SAP dates parsed and keying errors in posting dates repaired.
+    columns:
+      - name: material_document
+        data_tests: [unique, not_null]
+      - name: movement_type
+        data_tests:
+          - accepted_values: {arguments: {values: ['101', '122']}}
+  - name: stg_suppliers
+    columns:
+      - name: supplier_id
+        data_tests: [unique, not_null]
