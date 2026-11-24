@@ -1,0 +1,45 @@
+version: 2
+models:
+  - name: fct_requisition_line
+    description: Main fact table of the star schema. Grain is one requisition line.
+    columns:
+      - name: pr_line_key
+        data_tests: [unique, not_null]
+      - name: section_id
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_section'), field: section_id}}
+      - name: line_value_usd
+        data_tests: [not_null]
+  - name: fct_backlog_weekly
+    description: Weekly backlog flows and stock by section and supplier origin (grain week, section, origin).
+    data_tests:
+      - dbt_utils_unique_combination: {arguments: {columns: ['week_start', 'section_id', 'supplier_origin']}}
+  - name: fct_weekly_section
+    description: Forecasting base table. Targets and leading indicators per section and week.
+    data_tests:
+      - dbt_utils_unique_combination: {arguments: {columns: ['week_start', 'section_id']}}
+  - name: ml_features_weekly
+    description: Leakage-safe feature store for the direct multi-horizon ML forecasters.
+  - name: fct_payment
+    description: Cash out (downpayments and final payments).
+    columns:
+      - name: payment_id
+        data_tests: [unique, not_null]
+  - name: fct_work_order
+    description: Work orders with their parts situation and downtime waiting for parts.
+    columns:
+      - name: work_order_id
+        data_tests: [unique, not_null]
+  - name: dim_supplier
+    description: Supplier master enriched with delivery performance.
+    columns:
+      - name: supplier_id
+        data_tests: [unique, not_null]
+  - name: dim_section
+    columns:
+      - name: section_id
+        data_tests: [unique, not_null]
+  - name: dim_date
+    columns:
+      - name: date_day
+        data_tests: [unique, not_null]

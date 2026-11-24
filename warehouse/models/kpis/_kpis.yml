@@ -1,0 +1,10 @@
+version: 2
+models:
+  - name: kpi_monthly_company
+    description: Governed monthly KPI table. One row per month and KPI with value, target and status.
+    columns:
+      - name: status
+        data_tests:
+          - accepted_values: {arguments: {values: ['On target', 'At risk', 'Off target', 'Monitor']}}
+    data_tests:
+      - dbt_utils_unique_combination: {arguments: {columns: ['month_start', 'kpi_id']}}

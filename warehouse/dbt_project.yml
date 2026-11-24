@@ -1,0 +1,38 @@
+name: p2p
+version: "1.0.0"
+config-version: 2
+profile: p2p
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+analysis-paths: ["analyses"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+vars:
+  snapshot_date: "2025-12-31"
+  series_start: "2022-01-03"
+  series_end: "2025-12-22"   # last complete week before the extraction date
+  aged_warning_days: 90
+  aged_critical_days: 150
+
+models:
+  p2p:
+    staging:
+      +materialized: view
+      +schema: staging
+    intermediate:
+      +materialized: table
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts
+    kpis:
+      +materialized: table
+      +schema: kpis
+
+seeds:
+  p2p:
+    +schema: reference

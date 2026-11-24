@@ -1,0 +1,25 @@
+version: 2
+models:
+  - name: int_requisition_lifecycle
+    description: >
+      One row per requisition line with every stage date, stage durations, the derived lifecycle
+      status and data-quality flags. Status is derived from the documents, never from the SAP status field.
+    columns:
+      - name: pr_line_key
+        data_tests: [unique, not_null]
+      - name: lifecycle_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['Not Edited', 'RFQ Created', 'Awaiting Approval', 'Awaiting Downpayment', 'Awaiting Delivery', 'Received', 'Cancelled']
+      - name: supplier_origin
+        data_tests:
+          - accepted_values: {arguments: {values: ['Local', 'Foreign', 'Unknown', 'Not Sourced']}}
+  - name: int_po_line_receipts
+    columns:
+      - name: po_line_key
+        data_tests: [unique, not_null]
+  - name: int_po_approvals
+    columns:
+      - name: po_number
+        data_tests: [unique, not_null]
