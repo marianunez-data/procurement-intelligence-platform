@@ -25,3 +25,4 @@ reports/experiments/run.log
 .DS_Store
 .vscode/
 .idea/
+warehouse/.user.yml
