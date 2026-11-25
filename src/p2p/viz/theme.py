@@ -22,7 +22,7 @@ def use_matplotlib():
         "figure.figsize": (11, 4.2), "figure.dpi": 110, "savefig.dpi": 150, "figure.facecolor": "white",
         "axes.facecolor": "white", "axes.edgecolor": BRAND["grid"], "axes.linewidth": 0.8,
         "axes.spines.top": False, "axes.spines.right": False, "axes.grid": True, "axes.grid.axis": "y",
-        "grid.color": BRAND["grid"], "grid.linewidth": 0.8, "axes.titlesize": 13, "axes.titleweight": "semibold",
+        "grid.color": BRAND["grid"], "grid.linewidth": 0.8, "axes.titlesize": 13, "axes.titleweight": "bold",
         "axes.titlelocation": "left", "axes.titlepad": 12, "axes.labelsize": 10, "axes.labelcolor": BRAND["ink_2"],
         "xtick.color": BRAND["ink_2"], "ytick.color": BRAND["ink_2"], "xtick.labelsize": 9, "ytick.labelsize": 9,
         "legend.frameon": False, "legend.fontsize": 9, "lines.linewidth": 2.0, "font.family": "sans-serif",
