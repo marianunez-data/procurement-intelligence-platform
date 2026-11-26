@@ -1,0 +1,107 @@
+[
+  {
+    "use_case": "Weekly requisition demand by section",
+    "recommended": "Monte Carlo (structural demand)",
+    "keywords": [
+      "section",
+      "weekly",
+      "demand",
+      "requisition",
+      "workload",
+      "buyer"
+    ],
+    "why": "Best single model on 2024 and 2025, best calibrated intervals, runs in seconds and is explained by the demand drivers.",
+    "evidence": "Test MASE 0.875; 80% coverage 0.80. Not significantly different from the ensemble.",
+    "fallback": "LightGBM (global model with SHAP explanations)"
+  },
+  {
+    "use_case": "Company and business-unit totals for budgeting",
+    "recommended": "Theta reconciled with MinT",
+    "keywords": [
+      "company",
+      "business unit",
+      "budget",
+      "total",
+      "hierarchy",
+      "consistent"
+    ],
+    "why": "Forecasts at every level add up, and MinT gives the lowest error at company and business-unit level.",
+    "evidence": "Company WAPE 16.5% (MinT) against 19.1% (sum of sections) and 16.9% (Theta at company level only).",
+    "fallback": "Ensemble (top 3) summed to totals"
+  },
+  {
+    "use_case": "Weekly cash-out forecast for Finance",
+    "recommended": "Monte Carlo (process)",
+    "keywords": [
+      "cash",
+      "payment",
+      "finance",
+      "liquidity",
+      "downpayment",
+      "cash-out",
+      "cash out"
+    ],
+    "why": "Knows which POs are about to be delivered and which downpayments are pending; best accuracy on 2025.",
+    "evidence": "Test MASE 0.70 against 0.76 for the best statistical model (ETS).",
+    "fallback": "ETS"
+  },
+  {
+    "use_case": "Open backlog total for the next quarter",
+    "recommended": "Theta",
+    "keywords": [
+      "backlog",
+      "open lines",
+      "stock",
+      "open backlog"
+    ],
+    "why": "The backlog is a slow-moving stock: a simple model is the most accurate (WAPE 3.5%).",
+    "evidence": "Test MASE 0.42; the process simulator reaches 0.54 but adds what-if capability.",
+    "fallback": "Monte Carlo (process) for scenarios"
+  },
+  {
+    "use_case": "What-if decisions (policies, sourcing, capacity, FX)",
+    "recommended": "Monte Carlo (process)",
+    "keywords": [
+      "what-if",
+      "what if",
+      "scenario",
+      "decision",
+      "policy",
+      "simulate",
+      "sourcing"
+    ],
+    "why": "The only approach that represents the process stages a decision changes and propagates the effect to backlog and cash.",
+    "evidence": "Backtested on backlog and cash (notebook 10); six management scenarios quantified.",
+    "fallback": "None"
+  },
+  {
+    "use_case": "New section or site with little history",
+    "recommended": "Chronos-Bolt (zero-shot)",
+    "keywords": [
+      "new",
+      "cold start",
+      "little history",
+      "no history",
+      "new site"
+    ],
+    "why": "Needs no training data and matches SARIMAX accuracy; adjust for known growth because it under-forecasts trends.",
+    "evidence": "Validation MASE 0.767 without any training on Quayline data.",
+    "fallback": "Moving average with a manual trend"
+  },
+  {
+    "use_case": "Arrival date of a specific purchase order",
+    "recommended": "Survival model (log-normal AFT)",
+    "keywords": [
+      "arrive",
+      "arrival",
+      "eta",
+      "when will",
+      "lead time",
+      "po",
+      "purchase order"
+    ],
+    "why": "Handles open orders correctly as censored observations; validated against what actually happened after the extraction date.",
+    "evidence": "See notebook 12.",
+    "fallback": "Monte Carlo (process) before the PO is approved"
+  }
+]
